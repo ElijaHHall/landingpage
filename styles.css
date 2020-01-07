@@ -90,9 +90,15 @@ h6 {
   background-image: -webkit-linear-gradient(
     left,
     #47c7c3,
-    #35869e,
-    rgb(243, 229, 38)
+    #359e9e,
+    rgb(238, 234, 4)
   );
   -webkit-background-clip: text; /* For Chrome and Safari */
   color: transparent;
+}
+
+.signup {
+  display: flex;
+  justify-content: left;
+  text-align: left;
 }
