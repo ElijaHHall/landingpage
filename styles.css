@@ -9,15 +9,70 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+.header-text {
+  padding-left: 5vh;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  padding-top: 5vh;
+  text-transform: capitalize;
+  font-size: 72px;
+  background-image: -webkit-linear-gradient(
+    left,
+    #47c7c3,
+    #359e9e,
+    rgb(238, 234, 4)
+  );
+  -webkit-background-clip: text; /* For Chrome and Safari */
+  color: transparent;
+}
+
+.link-text {
+  color: black;
+  justify-content: right;
+  float: right;
+  line-height: 90px;
+  transform: translateX(200%) translateY(40%);
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  float: right;
+  padding-left: 45%;
+}
 
 .center {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transform: translateX(5%) translateY(-160%);
+}
+
+.commercial {
   margin: 0 auto;
-  width: 600px;
-  display: flex;
-  justify-content: left;
-  float: left;
-  padding-top: 70px;
-  padding-left: 30px;
+  position: relative;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  position: relative;
 }
 
 img {
@@ -78,23 +133,6 @@ h6 {
   align-items: left;
   padding-left: 10vh;
   padding-top: 10vh;
-}
-
-.header-text {
-  padding-left: 5vh;
-  font-weight: bold;
-  font-family: 'Cinzel', serif;
-  padding-top: 5vh;
-  text-transform: capitalize;
-  font-size: 72px;
-  background-image: -webkit-linear-gradient(
-    left,
-    #47c7c3,
-    #359e9e,
-    rgb(238, 234, 4)
-  );
-  -webkit-background-clip: text; /* For Chrome and Safari */
-  color: transparent;
 }
 
 .signup {
